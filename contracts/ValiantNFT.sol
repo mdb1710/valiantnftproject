@@ -19,7 +19,7 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
 
     // string public LICENSE_TEXT = "";
 
-    bool licenseLocked = false; // TEAM CAN'T EDIT THE LICENSE AFTER THIS GETS TRUE
+    // bool licenseLocked = false; // TEAM CAN'T EDIT THE LICENSE AFTER THIS GETS TRUE
 
     uint256 public constant traderPrice = 89000000000000000; // 0.089 ETH
 
@@ -37,7 +37,7 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
     
     event traderNameChange(address _by, uint _tokenId, string _name);
     
-    event licenseisLocked(string _licenseText);
+    // event licenseisLocked(string _licenseText);
 
     uint256 public tokenCounter;
     mapping (uint256 => string) private _tokenURIs;
@@ -64,9 +64,9 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
     //     MEMBER_PROVENANCE = provenanceHash;
     // }
 
-    function _setBaseURI(string memory baseURI) internal virtual {
-    _baseTokenURI = baseURI;
-  }
+//     function _setBaseURI(string memory baseURI) internal virtual {
+//     _baseTokenURI = baseURI;
+//   }
 
   function _baseURI() internal view override returns (string memory) {
     return _baseTokenURI;
@@ -97,23 +97,23 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
         }
     }
 
-    // Returns the license for tokens
-    function tokenLicense(uint _id) public view returns(string memory) {
-        require(_id < totalSupply(), "CHOOSE A TRADER WITHIN RANGE");
-        return LICENSE_TEXT;
-    }
+    // // Returns the license for tokens
+    // function tokenLicense(uint _id) public view returns(string memory) {
+    //     require(_id < totalSupply(), "CHOOSE A TRADER WITHIN RANGE");
+    //     return LICENSE_TEXT;
+    // }
     
-    // Locks the license to prevent further changes 
-    function lockLicense() public onlyOwner {
-        licenseLocked =  true;
-        emit licenseisLocked(LICENSE_TEXT);
-    }
+    // // Locks the license to prevent further changes 
+    // function lockLicense() public onlyOwner {
+    //     licenseLocked =  true;
+    //     emit licenseisLocked(LICENSE_TEXT);
+    // }
     
-    // Change the license
-    function changeLicense(string memory _license) public onlyOwner {
-        require(licenseLocked == false, "License already locked");
-        LICENSE_TEXT = _license;
-    }
+    // // Change the license
+    // function changeLicense(string memory _license) public onlyOwner {
+    //     require(licenseLocked == false, "License already locked");
+    //     LICENSE_TEXT = _license;
+    // }
     
 
     // function mintPosseMember(string memory _tokenURI) public {
@@ -137,6 +137,8 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
         }
 
     }
+
+ 
 
     function changeTraderName(uint _tokenId, string memory _name) public {
         require(ownerOf(_tokenId) == msg.sender, "Hey, your wallet doesn't own this tree!");
