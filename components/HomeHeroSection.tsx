@@ -10,7 +10,7 @@ const HomeHeroSection = () => {
     return(
         <>
     <div className="container bg-red-500 px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
-        <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
+        <div className="flex flex-col items-center justify-center w-full lg:flex-row lg:w-1/2">
                 <h1 className="text-5xl font-bold text-white text-center">VALIANT TRADER NFTS</h1>
                 <p className="mt-4 text-center text-white">Own your Valiant NFT Lion Today</p>
                 <div className="mt-6">
