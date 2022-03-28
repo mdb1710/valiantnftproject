@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
       <HomePageNav />
 
-      <main className='flex-grow pt-16'>
+      <main className='container flex-grow pt-16 mx-auto'>
         <HomeHeroSection />
         <AboutSection />
         <FeatureSection />
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <TeamSection />
       </main>
 
-      <footer className='footer w-screen p-10 bg-black text-center text-xl text-white'>
+      <footer className='w-screen p-10 bg-black text-center text-xl text-white'>
        <span className='my-10'>Copyright 2022 Valiant Trader, LLC. All Rights Reserved.</span>
       </footer>
     </div>

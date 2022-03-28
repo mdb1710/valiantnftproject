@@ -9,12 +9,10 @@ import Link from 'next/link'
 const HomeHeroSection = () => {
     return(
         <>
-        <div className="bg-red-500">
-    <div className="container px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
+    <div className="container bg-red-500 px-6 py-4 mx-auto lg:flex lg:h-128 lg:py-16 ">
         <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
-            <div className="max-w-lg">
-                <h1 className="text-3xl tracking-wide font-bold text-white lg:text-3xl lg:text-4xl font-barrio">VALIANT TRADER NFTS</h1>
-                <p className="mt-4 text-white text-white">Own your Valiant NFT Lion Today</p>
+                <h1 className="text-5xl font-bold text-white text-center">VALIANT TRADER NFTS</h1>
+                <p className="mt-4 text-center text-white">Own your Valiant NFT Lion Today</p>
                 <div className="mt-6">
                     <Link href="/mint">
                         <a 
@@ -28,7 +26,6 @@ const HomeHeroSection = () => {
                         className="inline-block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-400">
                         Join Discord</a>
                 </div>
-            </div>
         </div>
         <div className="flex items-center justify-center w-full mt-2 lg:h-96 lg:w-1/2">
             <Image 
@@ -39,7 +36,7 @@ const HomeHeroSection = () => {
             />
         </div>
     </div>
-</div>
+
           </>
     )
 }
