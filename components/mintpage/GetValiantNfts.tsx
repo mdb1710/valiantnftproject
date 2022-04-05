@@ -28,7 +28,7 @@ const GetBullNfts = (props: Props) => {
             // console.log("estimated gas",gasAmount)
 
             traderContract.methods
-                .mintTraderNft(how_many_traders)
+                .mintTrader(how_many_traders)
                 .send({from: walletAddress, value: price, type: "0x2"})
                 .on('transactionHash', function(hash: any){
                     console.log("transactionHash", hash)
