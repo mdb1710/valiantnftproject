@@ -21,7 +21,7 @@ contract ValiantTrader is ERC721, Pausable, Ownable, ERC721URIStorage, ERC721Enu
 
     // bool licenseLocked = false; // TEAM CAN'T EDIT THE LICENSE AFTER THIS GETS TRUE
 
-    uint256 public constant traderPrice = 1281000000000000000000; // 0.1281 ETH
+    uint256 public constant traderPrice = 128100000000000000; // 0.1281 ETH
 
     uint public constant maxTraderPurchase = 10;
 
