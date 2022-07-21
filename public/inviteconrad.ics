@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20220726T170000Z
+DTEND:20220726T173000Z
+DTSTAMP:20220720T211917Z
+ORGANIZER;CN=conrad@taycon369.com:mailto:conrad@taycon369.com
+UID:ksgkjhiv99qf3ij6j94b8ni24c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=conrad@taycon369.com;X-NUM-GUESTS=0:mailto:conrad@taycon369.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=mdb1710@gmail.com;X-NUM-GUESTS=0:mailto:mdb1710@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:-1952585073
+CREATED:20220720T211915Z
+DESCRIPTION:Event Name: 30 Minute Meeting\n\nLocation: This is a Zoom web c
+ onference.\n\nYou can join this meeting from your computer\, tablet\, or sm
+ artphone.\nhttps://zoom.us/j/99455678884?pwd=R2I0YXMrVWVFcGF5S05tbW5mMmpydz
+ 09\n\nPassword: 0AB6R9\n\nNeed to make changes to this event?\nCancel: http
+ s://calendly.com/cancellations/b487e25c-d300-4579-8dbe-e1d946261a96\nResche
+ dule: https://calendly.com/reschedulings/b487e25c-d300-4579-8dbe-e1d946261a
+ 96\n\nPowered by Calendly.com\n\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section o
+ f the description.\n\nView your event at https://calendar.google.com/calend
+ ar/event?action=VIEW&eid=a3Nna2poaXY5OXFmM2lqNmo5NGI4bmkyNGMgbWRiMTcxMEBt&t
+ ok=MjAjY29ucmFkQHRheWNvbjM2OS5jb21kN2M5NjQ1ODA3ODdjOTZmMDNlYTQyN2I1MDk1MGEz
+ MTMzZDk1MDE3&ctz=America%2FNew_York&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220720T211916Z
+LOCATION:https://zoom.us/j/99455678884?pwd=R2I0YXMrVWVFcGF5S05tbW5mMmpydz09
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Michael Bonner and Conrad Stobnicki
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -5,6 +5,7 @@ import AboutSection from '../components/AboutSection'
 import FeatureSection from '../components/FeaturesSection'
 import HomeHeroSection from '../components/HomeHeroSection'
 import HomePageNav from '../components/HomePageNav'
+import NewHeroSection from '../components/NewHeroSection'
 import RoadMapSection from '../components/RoadmapSection'
 import TeamSection from '../components/TeamSection'
 import styles from '../styles/Home.module.css'
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
 
       <main className='container flex-grow pt-16 mx-auto'>
         <HomeHeroSection />
+        <NewHeroSection />
         <AboutSection />
         <FeatureSection />
         <RoadMapSection />
