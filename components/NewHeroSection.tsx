@@ -4,7 +4,7 @@ import HeroImage from '../public/valiantheroimage.png'
 const NewHeroSection = () => {
     return (
         <>
-            <div className="bg-blue-900 w-fill h-96 px-32 py-auto">
+            <div className="bg-blue-900 w-screen px-32 py-32">
                 <div className="flex flex-row items-center justify-between">
                     <section className="flex flex-col w-2/5">
                         <h1 className="text-5xl font-bold text-white">The Fast Track To Winning With NFTs</h1>
@@ -28,8 +28,8 @@ const NewHeroSection = () => {
                         <Image 
                             src={HeroImage}
                             alt='Welcome to Valiant'
-                            width={300}
-                            height={300}
+                            width={600}
+                            height={600}
                         />
                     </div>
                 </div>
